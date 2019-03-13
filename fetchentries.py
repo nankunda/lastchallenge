@@ -1,6 +1,6 @@
 from flask import jsonify
 from app import app
-from create_entry import entries
+from createentry import entries
 
 
 @app.route("/")
